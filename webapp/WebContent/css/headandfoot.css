@@ -1,0 +1,97 @@
+@charset "utf-8";
+#footer{
+	height: 28px;
+	width: 100%;
+	/*position:fixed;*/
+	bottom: 0;
+}
+#header{
+	padding-left:0px;
+	margin:0px;
+	text-align:center;
+	height:30px;
+	width:100%;	
+	background-color:#394147;
+	border:1px solid #333333;
+}
+#header ul{
+	margin: 0px;
+	padding:0px;
+}
+#submenu{
+	width:900px;
+	height:28px;
+	text-align:center;
+}
+#header ul li{
+	dispaly:block;
+	height:30px;
+	width:115px;
+	list-style:none;
+	float:left;
+	font:0.9em Arial,Helvetica,sans-serif;
+	text-align:center;
+}
+
+#head ul li.gL a{/*使得当前页面的菜单栏变色*/
+	background-color: rgb(83, 83, 114);
+	color: white;
+}
+
+ul li a{
+	color:#FFF;
+	height:28px;
+	width:100%;
+	margin-left:10px;
+	/* padding:0px 0px 0px 8px; */
+	text-decoration:none;
+	display:block;
+	/* background:#55A0FF; */ 
+	line-height:29px;
+	border-bottom:1px solid transparent;
+}
+ul li #submenu ul li{  /* 定义子菜单中列表项的高度*/
+	height:25px;
+}
+ul li #submenu ul li a{
+	background:#55AAEE;
+	line-height:23px;     /* 定义子菜单中超链接的样式*/
+}
+ul li a:hover{
+	background:#666;
+	border-bottom:1px dashed #161515;
+}
+ul li #submenu{     /* 定义子菜单初始状态为不显示      （这个地方在header中没效果）*/
+	display:none;
+}
+#submenu ul li{
+	height:24px;
+	width:113px;
+	list-style:none;
+	float:none;
+	dispaly:none;
+	font:0.8em Arial,Helvetica,sans-serif;
+	text-align:center;
+} 
+#header ul li:hover #submenu{ 
+	  display:block;  
+}  
+
+
+ul li #submenu ul li a:hover{
+	background:#666;
+}
+#bodyDiv{
+  
+    margin:  auto;
+    background: url(../image/18093.jpg) 5px center no-repeat;   
+    min-width:1024px; /*定义网页最小尺寸*/
+    min-height:768px;
+    width: auto;
+    height: auto; /* 若网页高度超过768px时,变为自动扩增*/
+ 
+
+}
+#float{
+	float:right;
+}

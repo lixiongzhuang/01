@@ -1,0 +1,56 @@
+@charset "utf-8";
+body{
+    background-image: url(../image/18093.jpg);
+    font-size: 14px;
+}
+
+#loginForm{
+    width: 380px;
+    height: 230px;
+    background-color: beige;
+    margin: 200px auto;
+    padding-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+}
+#loginForm p{
+    text-indent: 45px;
+}
+#userName{
+    width: 300px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    text-indent: 24px;
+}
+#password{
+    width: 300px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    text-indent: 24px;
+}
+#vcode{
+    width: 200px;
+    background-repeat: no-repeat;
+    background-position: 2px center;
+}
+#vcode{
+    height: 30px;
+    border: 1px solid #ccc;
+    text-indent: 24px;
+}
+#vcodeImg{
+    cursor: pointer;
+    border: 0;
+    height: 30px;
+    vertical-align: middle;
+}
+#btLogin{
+    width: 300px;
+    height: 30px;
+    background-color: cadetblue;
+    color: #fff;
+    font-weight: bold;
+     border-radius: 1em;
+}
